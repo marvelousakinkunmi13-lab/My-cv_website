@@ -1,0 +1,93 @@
+/* General Page Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f7f6;
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header Section Styling */
+header {
+    background-color: #1e3d59;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 8px 8px 0 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+header h3 {
+    margin: 5px 0;
+    font-weight: normal;
+    font-size: 0.95rem;
+    color: #e0e0e0;
+}
+
+/* Main Content Container */
+main {
+    background-color: #ffffff;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* CV Section Styling */
+.cv-section {
+    margin-bottom: 25px;
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 15px;
+}
+
+.cv-section:last-of-type {
+    border-bottom: none;
+}
+
+h2 {
+    color: #1e3d59;
+    border-left: 4px solid #17b978;
+    padding-left: 10px;
+    font-size: 1.3rem;
+    margin-bottom: 12px;
+}
+
+h3 {
+    color: #438a5e;
+    margin-bottom: 5px;
+    font-size: 1.05rem;
+}
+
+/* Lists and Text */
+ul, ol {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #1e3d59;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 0 0 8px 8px;
+    font-size: 0.9rem;
+}
